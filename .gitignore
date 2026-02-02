@@ -1,0 +1,26 @@
+# Python
+ml_classifier.egg-info
+__pycache__
+
+# Data
+#data/raw/raw.csv
+#data/preprocessed/train_preprocessed.csv
+#data/preprocessed/test_preprocessed.csv
+#artifacts/\[features\]_mean_imputer.joblib
+#data/processed/train_processed.csv
+#data/processed/test_rocessed.csv
+data/**/*.csv
+
+# Artifacts
+#artifacts/\[features\]_scaler.joblib
+#artifacts/\[target\]_one_hot_encoder.joblib
+artifacts/*.joblib
+
+# Models
+#models/model.keras
+models/*.keras
+
+# Metrics
+#metrics/training.json
+#metrics/evaluation.json
+metrics/*.json
