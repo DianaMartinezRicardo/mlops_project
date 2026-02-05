@@ -24,3 +24,7 @@ models/*.keras
 #metrics/training.json
 #metrics/evaluation.json
 metrics/*.json
+
+# MLflow
+mlruns
+
